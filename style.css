@@ -75,3 +75,12 @@
 .host{
     padding-bottom: 20px;
 }
+.blue-bar{
+    background-color: #262336;
+}
+.blue-bar h4{
+    background: linear-gradient(to bottom, #a59ec2 0%, #75708b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
