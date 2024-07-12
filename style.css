@@ -1,25 +1,31 @@
 .row-header{
     background-color: #262336;
-    color: white;
+    color: #685972;
     text-align: center;
-    border-bottom: 2px solid red
+    border-bottom: 1px solid #2d2a3d;
+    padding-bottom: 20px;
     /*change text and border colors*/
 }
-
+.navigation{
+    align-self: self-end;
+}
 .navigation ul{
     list-style-type: none;
     display: inline;
+    padding-left: 0;
 }
 
 .navigation li{
     display: inline;
-    padding: 20px;
+    padding: 15px;
 }
 
 .container-customer-support{
     background-color: #262336;
     color: white;
     text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .container-customer-support h3{  
@@ -71,6 +77,8 @@
 .hosting{
     background-color: #e8e8ea;
     text-align: center;
+    padding-top: 15px;
+
 }
 .host{
     padding-bottom: 20px;
@@ -106,7 +114,9 @@
     .row-customer-support p{
         padding-right: 300px;
         padding-left: 300px;
+    }
 
-
+    .logo{
+        text-align: -webkit-left;
     }
 }
