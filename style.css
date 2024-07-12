@@ -77,10 +77,36 @@
 }
 .blue-bar{
     background-color: #262336;
+    color: #68647d;
+}
+
+.blue-bar div{
+    padding: 25px;
 }
 .blue-bar h4{
     background: linear-gradient(to bottom, #a59ec2 0%, #75708b 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
 
+.blue-bar li{
+    color: white;
+}
+
+.blue-bar li::marker {
+    color: #ffa500;
+  }
+.blue-bar button{
+    background: linear-gradient(to bottom, #f18d56 0%, #e55a2e 100%);
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 30px;
+}
+@media (min-width: 1023px){
+    .row-customer-support p{
+        padding-right: 300px;
+        padding-left: 300px;
+
+
+    }
 }
